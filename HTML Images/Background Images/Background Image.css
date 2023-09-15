@@ -1,0 +1,17 @@
+h1{
+    font-size: 350%;
+    text-align: center;
+}
+h2{
+    font-size: 270%;
+    text-align: center;
+}
+img{
+    opacity: 20%;
+}
+body{
+    background-image: url(IMG_1156.JPG);
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat ;
+}
