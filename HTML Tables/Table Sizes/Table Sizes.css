@@ -1,0 +1,13 @@
+table{
+    align-items: center;
+    width: 10cm;
+}
+tr{
+    height: 1.5cm;
+    text-align: center;
+    width: 50cm;
+}
+table, th, tr, td{
+    border: 1px ridge black;
+    border-collapse: collapse;
+}

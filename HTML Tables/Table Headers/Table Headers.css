@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+}
+body{
+    background-image: url(Thumbs\ up\ Image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    border: 1.5px solid black;
+    width: 15cm;
+    border-collapse: collapse;
+}
+th{
+    border: 1.5px solid black;
+    width: 15cm;
+    border-collapse: collapse;
+    height: 2cm;
+}
+td{
+    border: 1.5px solid black;
+    text-align: center;
+    width: 15cm;
+    border-collapse: collapse;
+    height: 2cm;
+}

@@ -2,5 +2,6 @@
     "editor.suggest.showStatusBar": true,
     "zenMode.hideStatusBar": false,
     "workbench.statusBar.visible": true,
-    "zenMode.fullScreen": false
+    "zenMode.fullScreen": false,
+    "livePreview.defaultPreviewPath": "/HTML Tables/Zebra Stripes/Zebra stripes.html"
 }

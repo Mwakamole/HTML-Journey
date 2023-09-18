@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+}
+caption{
+    width: 15cm;
+    font-weight: bold;
+}
+table, th, td{
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td:nth-child(even){
+    background-color: #89cfcfab;
+}

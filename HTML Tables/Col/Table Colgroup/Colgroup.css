@@ -1,0 +1,18 @@
+h1{
+    font-size: 350%;
+    text-align: center;
+}
+caption{
+    font-size: 200%;
+    font-weight: bold;
+}
+table{
+    width: 12cm;
+}
+td, th{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

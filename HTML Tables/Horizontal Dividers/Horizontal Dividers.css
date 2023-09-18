@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+}
+table{
+    width: 15cm;
+    border: 1px solid black;
+}
+caption{
+    text-align: center;
+}
+  th, tr{
+    border: 1px solid black;
+  }
