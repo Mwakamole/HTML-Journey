@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+}
+P{
+    font-size: 150%;
+}
+.red {
+    color: tomato;
+}
+.action{
+    font-style: italic;
+}
+.amber{
+    color: rgb(209, 172, 71);
+}
+.green{
+    color: green;
+}
