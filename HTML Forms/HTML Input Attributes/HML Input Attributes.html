@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Attributes</title>
+        <link rel="stylesheet" href="HTML Input Attributes.css">
+    </head>
+    <body>
+        <h1>HTML Input Attributes</h1>
+        <h2>The Value Attribute</h2>
+        <p>Used to specify an initial value for input fields as shown below:</p>
+        <form>
+            <label for="fname">Firstname:</label>
+            <input type="text" name="fname" id="fname" value="John">
+        </form>
+        <h2>The readonly Attribute</h2>
+        <p>Used to specify that an input field cannot be modified like in the text field below:</p>
+        <form>
+            <label for="fname">Firstname:</label><br>
+            <input type="text" id="fname" name="fname" value="John" readonly>
+        </form>
+        <h2>The Disabled Attribute</h2>
+        <p>Specifies that an input field should be disabled, making it unusable and unclickable as shown below</p>
+        <p>The value of a disabled output will not be sent when submitting the form.</p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Mwakamole" disabled>
+        </form>
+        <h2>The Size Attribute</h2>
+        <p>Specifies the visible width, in characters of an input field.<br>
+           The default value for size is 20.
+           In the example beleow, the size of the 'pin' input field has been set to four.
+        </p>
+        <form>
+            <label for="pin">PIN:</label><br>
+            <Input type="text" id="pin" name="pin" placeholder="PIN" size="4"> 
+        </form>
+        <h2>The min and max Attributes</h2>
+        <p>Used for specifying the maximum and minimm values of an input field.<br>
+           It works with number, range, date, time, month and week input types
+           In the esxample below, the minimum value for the range(slider) has been set to 0 and the maximum value set to 50
+        </p>
+        <form>
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="50">
+        </form>
+        <h2>The Multiple Attribute</h2>
+        <p>Specifies that a user is allowed to input more than one value of an input<br>
+           Works with the email and file input types
+        </p>
+        <form>
+            <label for="file">Upload your file:</label>
+            <input type="file" id="file" name="file" multiple>
+        </form>
+        <h2>The required Attribute</h2>
+        <p>Specifies that an input field must be filled out before submission</p>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h2>The step Attribute</h2>
+        <p>Specifies the intervals of an input field</p>
+        <form>
+            <label for="points">Points:</label>
+            <input type="number" id="points" name="points" step="5">
+        </form>
+        <h2>The autofocus Attribute</h2>
+        <p>Specifies that an input field should automatically focus when the page loads</p>
+        <form>
+            <label for="fname">Firstname:</label><br>
+            <input type="text" name="fname" id="fname" autofocus><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" a>
+            
+        </form>
+    </body>
+</html>
